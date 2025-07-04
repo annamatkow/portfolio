@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --cor-um: #000000;
+    --cor-dois: #DCD7C9;
+    --cor-tres: #da759c;
+    --cor-quatro: #aa5073;
+    --cor-cinco: #8e5260;
+    --cor-seis: #1b0810;
+
+    --fonte-primaria: "Source Code Pro", monospace;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-um);
+    color: var(--cor-dois);
+    font-family: var(--fonte-primaria);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.regua {
+    border: 0;
+    height: 2px;
+    background-color: var(--cor-cinco);
+    margin: 1.25% 0;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 26%;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho__menu__link {
+    font-weight: 500;
+    color: var(--cor-tres);
+    text-decoration: none;
+}
+
+.apresentacao {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1.67%;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.apresentacao__conteudo {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 1.67%;
+    overflow-y: auto;
+    padding-right: 1.67%;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 1.95rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__titulo__destaque {
+    color: var(--cor-quatro);
+    font-weight: bold;
+    border: 1px solid var(--cor-cinco);
+    padding: 1px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.125rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+}
+
+.apresentacao__conteudo__texto__destaque {
+    color: var(--cor-quatro);
+    font-family: var(--fonte-secundaria);
+    font-weight: bold;
+}
+
+.apresentacao__imagem {
+    border-radius: 90px;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 1.67% 0;
+}
+
+.apresentacao__links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.apresentacao__links__container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.apresentacao__links__link {
+    /* background-color: #4b162b; gostei dessa cor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: var(--cor-um);
+    border: 2px inset var(--cor-tres);
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 0.9375rem;
+    padding: 12px 0;
+    text-decoration: none;
+    color: var(--cor-tres);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    flex: 1;
+    min-width: 150px;
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-seis);
+}
+
+.apresentacao__links__icone__github {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.apresentacao__links__icone__linkedin {
+    display: flex;
+    width: 29px;
+    height: 29px;
+    margin-right: 8px;
+}
+
+.rodape {
+    background-color: var(--cor-seis);
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+    .cabecalho {
+        padding: 10% 0 7% 0%;
+        max-width: 100%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        padding: 0 5%;
+        padding-top: 20px;
+        overflow: visible;
+        overflow-wrap: normal;
+        word-break: keep-all;
+        hyphens: none;
+        padding: 0 5%;
+        max-width: 100vw;
+        box-sizing: border-box;
+        width: auto;
+    }
+
+    .apresentacao__conteudo__titulo__destaque {
+        border: 1px solid var(--cor-cinco);
+        padding: 1px;
+    }
+
+    .apresentacao__links__container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .apresentacao__links__link{
+        width: 100%;
+        max-width: 200px;
+        padding: 10px 0;
+        font-size: 0.875rem;
+        white-space: nowrap;
+    }
+
+    .apresentacao__imagem {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
