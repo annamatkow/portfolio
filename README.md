@@ -1,5 +1,7 @@
 # Portfólio Anna Matkow 🌟
 
+[![Live Demo](https://img.shields.io/badge/🚀_Ver_Portfólio-Live-2EA44F?style=for-the-badge)](https://annamatkow.github.io/portfolio/index.html)
+
 <img src="./assets/cortada.jpg" alt="Preview do Portfólio" width="400" style="border-radius: 10px; margin: 20px 0;">
 
 ## 📌 Sobre o Projeto
@@ -49,12 +51,6 @@ portfolio/
 │ └── style.css
 ├── about.html
 └── index.html
-
----
-
-## 💡 Nota Pessoal
-> "Este portfólio é um organismo vivo que vai evoluir com minhas habilidades. Cada linha de código conta parte da minha jornada Fullstack!"  
-> **— Anna Matkow**
 
 ---
 
