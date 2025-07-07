@@ -180,7 +180,11 @@ body {
     font-size: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+    body {
+        color: #f1f1f1;
+    }
+    
     .cabecalho {
         padding: 10% 0 7% 0%;
         max-width: 100%;
