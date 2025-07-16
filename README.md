@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/🚀_Ver_Portfólio-Live-2EA44F?style=for-the-badge)](https://annamatkow.github.io/portfolio/index.html)
 
-<img src="./assets/cortada.jpg" alt="Preview do Portfólio" width="400" style="border-radius: 10px; margin: 20px 0;">
+<img src="./assets/port.png" alt="Preview do Portfólio" width="800">
 
 ## 📌 Sobre o Projeto
 Meu primeiro portfólio desenvolvido com **HTML e CSS**, criado durante meus estudos na Alura. Este projeto marca o início da minha jornada para me tornar uma **Desenvolvedora Fullstack**.
